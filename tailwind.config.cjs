@@ -2,12 +2,12 @@ module.exports = {
   content: ["./src/**/*.{html.js,jsx,tsx}"],
   theme: {
     extend: {
-      
-      fontFamily: {
-
-        'custom': ['CabinetGrotesk', 'sans-serif'] // 'MyCustomFont' is the name you defined in @font-face
-
-    }
+      screens: {
+        'sm':'300px',
+        'md':'700px',
+        'lg': '1000px',
+        'xl': '1460px',
+      },
     },
   },
   plugins: [],

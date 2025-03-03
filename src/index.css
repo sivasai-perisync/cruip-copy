@@ -4,15 +4,25 @@
 
 
 @font-face {
+    font-family: 'CabinetGrotesk';
+    src: url('../assets/Fonts/TTF/CabinetGrotesk-Variable.ttf');
+}
 
-    font-family: 'MyCustomFont';
+@font-face {
+    font-family: 'Aspekta';
+    src: url('../assets/asptex/ttf/Aspekta-300.ttf');
+}
 
-    src: url('./assets/fonts/CabinetGrotesk_Complete/Fonts/TTF/CabinetGrotesk-Variable.ttf') format('woff2'), 
+.font-custom {
+    font-family: 'CabinetGrotesk' !important;
 
-         url('./assets/fonts/CabinetGrotesk_Complete/Fonts/TTF/CabinetGrotesk-Variable.ttf') format('woff');
+}
 
-    font-weight: normal;
+.font-custom1 {
+    font-family: 'Aspekta' !important;
 
-    font-style: normal;
+}
 
+*{
+    font-family: 'Aspekta' !important;
 }

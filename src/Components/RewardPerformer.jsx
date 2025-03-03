@@ -24,8 +24,9 @@ const data = [
 
 const RewardPerformer = () => {
   return (
-    <div className="bg-blue-600 ">
-      <p className="max-w-[800px] mx-auto text-5xl font-bold py-16 text-white font-custom">
+    <div className="">
+      <div className="bg-[url(./public/hero-bg.png)] w-[100%] h-auto bg-no-repeat bg-cover bg-center">
+      <p className="max-w-7xl mx-auto text-5xl font-bold py-16 text-white font-custom">
         We bring you high-quality talents from 72+ countries
       </p>
       <div className="pb-40 flex items-center justify-center overflow-hidden gap-6">
@@ -56,18 +57,19 @@ const RewardPerformer = () => {
           alt=""
         />
       </div>
-      <div className="flex items-center justify-center gap-10 max-w-[1200px] mx-auto pb-20 text-white">
+      <div className="flex items-center justify-center gap-10 sm:w-full  md:max-w-7xl mx-auto pb-20 text-white">
         {data.map((item) => (
           <div className="flex flex-col">
             <div>
               <img className="w-10 invert" src={item.img} alt="" />
             </div>
 
-            <div className="font-bold pt-4">{item.head}</div>
-            <div>{item.para}</div>
+            <div className="font-bold pt-4 font-custom">{item.head}</div>
+            <div className="font-custom1">{item.para}</div>
           </div>
         ))}
       </div>
+      </div> 
     </div>
   );
 };

@@ -1,20 +1,24 @@
 import React from "react";
-import Herosection from "./Herosection";
-import Quickexplainer from "./Quickexplainer";
+import HeroSection from "./HeroSection";
+import QuickExplainer from "./QuickExplainer";
 import RewardPerformer from "./RewardPerformer";
-import Managetalents from "./Managetalents";
+import ManageTalents from "./ManageTalents";
 import Services from "./Services";
 import Pricing from "./Pricing";
+import Questions from "./Questions";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
-      <Herosection />
-      <Quickexplainer />
+      <HeroSection />
+      <QuickExplainer />
       <RewardPerformer />
-      <Managetalents />
+      <ManageTalents />
       <Services />
       <Pricing />
+      <Questions />
+      <Footer />
     </>
   );
 };

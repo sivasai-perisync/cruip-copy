@@ -1,9 +1,9 @@
 import React from "react";
 
-const Callbtn = () => {
+const CallBtn = () => {
   return (
-    <div className="w-40 items-center justify-center bg-black flex gap-2 rounded-full py-2 px-2">
-      <button className="text-white text-sm font-semibold">
+    <div className=" items-center justify-center bg-black flex gap-2 rounded-full py-2 px-2 ">
+      <button className="text-white text-sm font-semibold font-custom">
         Schedule A Call
       </button>
       <img
@@ -15,4 +15,4 @@ const Callbtn = () => {
   );
 };
 
-export default Callbtn;
+export default CallBtn;
