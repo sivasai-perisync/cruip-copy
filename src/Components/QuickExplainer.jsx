@@ -28,7 +28,7 @@ const QuickExplainer = () => {
   return (
     <div className=" bg-white ">
       <p className="text-5xl font-bold text-center py-20 sm:w-full  md:max-w-7xl mx-auto font-custom">
-        We support early stage startups and leading tech giants.
+        We support early stage startups  <br /> and leading tech giants.
       </p>
       <div className="relative">
         {" "}

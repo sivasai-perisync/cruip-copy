@@ -63,7 +63,7 @@ const data = [{
 const Services = () => {
     return (
         <div className="bg-black relative">
-            <p className="text-5xl text-center sm:w-full  md:max-w-7xl mx-auto font-bold py-20 text-white font-custom">Scale your business with ready-to-buy services
+            <p className="text-5xl text-center sm:w-full  md:max-w-7xl mx-auto font-bold py-20 text-white font-custom">Scale your business with ready-to- <br /> buy services
             </p>
             <div className="flex items-center justify-center gap-8 pb-20 flex-wrap sm:w-full  md:max-w-7xl mx-auto">{data.map((item) => (
                 <div className=" "> <div><img className="w-48" src={item.img} alt="" /></div><div className="text-center text-white pt-8 font-bold font-custom">{item.head}</div>

@@ -23,7 +23,7 @@ const ManageTalents = () => {
     return (
         <div className="bg-white">
             <p className="text-5xl text-center sm:w-full  md:max-w-7xl mx-auto font-bold py-20 font-custom">
-                Everything you need to find, hire, and manage talents
+                Everything you need to find, hire, <br /> and manage talents
             </p>
             <div className="flex sm:w-full  md:max-w-7xl mx-auto items-center sm:flex-wrap lg:flex justify-center gap-4 pb-20">
                 <FlexibleBtn />

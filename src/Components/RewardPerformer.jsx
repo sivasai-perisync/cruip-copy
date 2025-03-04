@@ -27,7 +27,7 @@ const RewardPerformer = () => {
     <div className="">
       <div className="bg-[url(./public/hero-bg.png)] w-[100%] h-auto bg-no-repeat bg-cover bg-center">
       <p className="max-w-7xl mx-auto text-5xl font-bold py-16 text-white font-custom">
-        We bring you high-quality talents from 72+ countries
+        We bring you high-quality talents <br /> from 72+ countries
       </p>
       <div className="pb-40 flex items-center justify-center overflow-hidden gap-6">
         {" "}
