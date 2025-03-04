@@ -6,8 +6,9 @@ import ManageTalents from "./ManageTalents";
 import Services from "./Services";
 import Pricing from "./Pricing";
 import Questions from "./Questions";
-import Footer from "./Footer";
 
+
+import Footer from "/home/dev/Desktop/Reactjs/Zenvoice/src/Components/Footer/Footer.jsx"
 const Home = () => {
   return (
     <>

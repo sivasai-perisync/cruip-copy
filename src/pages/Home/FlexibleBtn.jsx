@@ -12,7 +12,7 @@ const FlexibleBtn = () => {
     <div className="">
       <button
         onClick={ChangeBg}
-        className="w-40  h-8 rounded-full bg-white shadow-md hover:bg-blue-100 font-custom "
+        className="w-40  h-8 rounded-full bg-white shadow-md hover:bg-blue-100 font-bold font-custom "
       >
         Flexible Features
       </button>

@@ -1,5 +1,6 @@
 import React from "react";
-import CallBtn from "./CallBtn";
+
+import CallBtn from "../../pages/Home/CallBtn"
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
           </svg>
         </div>
         <div className="flex items-center gap-4">
-          <a href="#" className="text-white underline font-custom">
+          <a href="#" className="text-white underline font-custom text-sm font-bold">
             Sign in
           </a>
           <CallBtn />

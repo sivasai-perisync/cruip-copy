@@ -1,0 +1,42 @@
+
+[
+    {
+        "heading": "Essentials",
+        "items": [
+            { "label": "Payments", "href": "/Payments" },
+            { "label": "Budgeting and analytics", "href": "/essentials" },
+            { "label": "Open banking", "href": "/essentials" },
+            { "label": "Pockets", "href": "/Pockets" },
+            { "label": "Subscriptions", "href": "/Subscriptions" }
+        ]
+    },
+    {
+        "heading": "Company",
+        "items": [
+            { "label": "About us", "href": "/About us" },
+            { "label": "Diversity / Inclusion", "href": "/Diversity / Inclusion" },
+            { "label": "Sustainability", "href": "/Sustainability" },
+            { "label": "Code of conduct", "href": "/Code of conduct" },
+            { "label": "Financial statements", "href": "/Financial statements" }
+        ]
+    },
+    {
+        "heading": "Lifestyle",
+        "items": [
+            { "label": "International products", "href": "/International products" },
+            { "label": "product method", "href": "/product method" },
+            { "label": "Customers", "href": "/Customers" }
+        
+        ]
+    },
+    {
+        "heading": "Resources",
+        "items": [
+            { "label": "Community", "href": "/Community" },
+            { "label": "Contact", "href": "/Contact" },
+            { "label": "DPA", "href": "/DPA" },
+            { "label": "Terms of service", "href": "/Terms of service" }
+            
+        ]
+    }
+]
