@@ -1,5 +1,5 @@
 import React from "react";
-import data from "/home/dev/Desktop/Reactjs/Zenvoice/Data/Questions.json"
+import data from "../../../Data/Questions.json"
 const Questions = () => {
     return (
         <div className=" py-20 max-w-7xl  mx-auto p-4">

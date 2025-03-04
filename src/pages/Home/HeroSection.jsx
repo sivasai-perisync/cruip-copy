@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "/home/dev/Desktop/Reactjs/Zenvoice/src/Components/Header/Header.jsx"
+import Header from "../../Components/Header/Header"
 
 import CallBtn from "./CallBtn";
 

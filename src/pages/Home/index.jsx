@@ -8,7 +8,7 @@ import Pricing from "./Pricing";
 import Questions from "./Questions";
 
 
-import Footer from "/home/dev/Desktop/Reactjs/Zenvoice/src/Components/Footer/Footer.jsx"
+import Footer from "../../Components/Footer/Footer"
 const Home = () => {
   return (
     <>

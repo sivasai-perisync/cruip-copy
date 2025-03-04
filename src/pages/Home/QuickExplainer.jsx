@@ -1,6 +1,6 @@
 import React from "react";
 import CallBtn from "./CallBtn";
-import data from "/home/dev/Desktop/Reactjs/Zenvoice/Data/QuickExplainer.json"
+import data from "../../../Data/QuickExplainer.json"
 
 
 

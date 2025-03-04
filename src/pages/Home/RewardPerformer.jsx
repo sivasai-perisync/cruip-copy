@@ -1,5 +1,5 @@
 import React from "react";
-import data from "/home/dev/Desktop/Reactjs/Zenvoice/Data/RewardPerformer.json";
+import data from "../../../Data/RewardPerformer.json";
 
 const RewardPerformer = () => {
   return (

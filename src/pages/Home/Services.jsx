@@ -1,5 +1,5 @@
 import React from "react";
-import data from "/home/dev/Desktop/Reactjs/Zenvoice/Data/Services.json"
+import data from "../../../Data/Services.json"
 
 const Services = () => {
     return (

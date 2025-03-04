@@ -1,6 +1,6 @@
 import React from "react"
 import CallBtn from "../../pages/Home/CallBtn"
-import navItems from "/home/dev/Desktop/Reactjs/Zenvoice/Data/Footer.json";
+import navItems from "../../../Data/Footer.json";
 
 const NavItems = ({ data }) => (
     <div className="">

@@ -1,6 +1,6 @@
 import React from "react";
 import FlexibleBtn from "./FlexibleBtn";
-import data from "/home/dev/Desktop/Reactjs/Zenvoice/Data/ManageTalents.json"
+import data from "../../../Data/ManageTalents.json"
 
 const ManageTalents = () => {
 
